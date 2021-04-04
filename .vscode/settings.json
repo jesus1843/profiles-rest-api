@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "d:\\programming_courses\\curso_build_a_backend_resp_api_with_python_django_beginner\\venv\\Scripts\\python.exe",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "python.linting.pylintArgs": ["--reports", "12", "--disabled", "I0011", "--load-plugins", "pylint_django"],
+    "python.linting.flake8Args": ["--ignore=E24,W504", "--verbose"],
+    "python.linting.pydocstyleArgs": ["--ignore=D400", "--ignore=D4"],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ]
+}
